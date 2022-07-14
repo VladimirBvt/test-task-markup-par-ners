@@ -1,0 +1,13 @@
+.m-main__item {
+    height: 140px;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+.m-main__item:last-child {
+    margin-bottom: 0;
+}
+
+.m-main__item:first-child {
+    margin-top: 0;
+}
