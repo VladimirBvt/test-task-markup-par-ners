@@ -1,0 +1,14 @@
+.m-header__logo {
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.m-header__profile-logo {
+    margin-bottom: -9px;
+}
+
+@media (max-width: 767px) {
+    .t-header__search {
+        display: none;
+    }
+}

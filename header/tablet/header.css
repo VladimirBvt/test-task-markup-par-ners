@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+    .header__search {
+        display: none;
+    }
+    .header__wrapper {
+        border-bottom: 0;
+    }
+    .m-header__profile-logo {
+        display: none;
+    }
+}

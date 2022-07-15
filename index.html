@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Front-end Junior test task</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/common/normalize.css">
+    <link rel="stylesheet" href="/common/style.css">
+    <link rel="stylesheet" href="/header/header.css">
+    <link rel="stylesheet" href="/header/mobile/m-header.css">
+    <link rel="stylesheet" href="/header/search/search.css">
+    <link rel="stylesheet" href="/header/search/mobile/search.css">
+    <link rel="stylesheet" href="/main/mobile/m-main.css">
+    <link rel="stylesheet" href="/main/main.css">
+    <link rel="stylesheet" href="/main/item/item.css">
+    <link rel="stylesheet" href="/main/item/mobile/m-item.css">
+    <link rel="stylesheet" href="/header/tablet/header.css">
+    <link rel="stylesheet" href="/header/search/tablet/search.css">
+    <link rel="stylesheet" href="/header/profile/tablet/profile.css">
+    <link rel="stylesheet" href="/main/tablet/t-main.css">
+</head>
+<body>
+    <header class="header m-header">
+        <div class="header__wrapper">
+            <img src="/header/images/logo.svg" class="m-header__logo" alt="logo">
+            <form action="" method="get" class="t-header__search">
+                <input type="search" class="header__search-input t-header__search-input" placeholder="Найти...">
+                <button type="submit" class="header__search-button">
+                    <img src="/header/search/images/search.svg" alt="search">
+                </button>
+            </form>
+            <div class="t-header__profile">
+                <span class="t-header__profile-name">Константин</span>
+                <a href="#" class="t-header__profile-photo">
+                    <img src="/header/profile/tablet/images/profile-photo.png" alt="profile photo">
+                </a>
+            </div>
+            <a href="#" class="m-header__profile-logo">
+                <img src="/header/profile/mobile/images/profile-logo.svg" alt="profile logo">
+            </a>
+        </div>
+        <form action="" method="get" class="header__search">
+            <input type="search" class="header__search-input" placeholder="Найти...">
+            <button type="submit" class="header__search-button">
+                <img src="/header/search/images/search.svg" alt="search">
+            </button>
+        </form>
+    </header>
+    <main>
+        <div class="main__wrapper m-main__wrapper">
+            <h1 class="main__title m-main__title">НАШИ ПАРТНЕРЫ</h1>
+            <div class="main__content m-main__content t-main__content">
+                <a href="#" class="main-item m-main__item t-main__item" >
+                    <img src="/main/item/images/item1.svg" alt="logo partner"/>
+                </a>
+                <a href="#" class="main-item m-main__item t-main__item">
+                    <img src="/main/item/images/item2.svg" alt="logo partner"/>
+                </a>
+                <a href="#" class="main-item m-main__item t-main__item">
+                    <img src="/main/item/images/item3.svg" alt="logo partner"/>
+                </a>
+                <a href="#" class="main-item m-main__item t-main__item">
+                    <img src="/main/item/images/item4.svg" alt="logo partner"/>
+                </a>
+                <a href="#" class="main-item m-main__item t-main__item">
+                    <img src="/main/item/images/item5.svg" alt="logo partner"/>
+                </a>
+                <a href="#" class="main-item m-main__item t-main__item">
+                    <img src="/main/item/images/item6.svg" alt="logo partner"/>
+                </a>
+                <a href="#" class="main-item m-main__item t-main__item">
+                    <img src="/main/item/images/item7.svg" alt="logo partner"/>
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
