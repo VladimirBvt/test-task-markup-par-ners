@@ -1,0 +1,21 @@
+.t-header__profile {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-left: 1px solid #EBEBF1;
+}
+
+.t-header__profile-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #768298;
+    margin: 0 11px 0 19px;
+}
+
+
+@media (max-width: 767px) {
+    .t-header__profile {
+        display: none;
+    }
+}
