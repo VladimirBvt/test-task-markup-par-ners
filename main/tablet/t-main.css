@@ -22,6 +22,7 @@
 
     .m-main__wrapper {
         max-width: 95%;
+        padding-right: 0;
     }
 
     .m-main__item {

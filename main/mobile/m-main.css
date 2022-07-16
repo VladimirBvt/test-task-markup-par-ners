@@ -1,6 +1,7 @@
 .m-main__wrapper {
-    max-width: 89.333%;
+    max-width: 88.8%;
     margin: 0 auto;
+    padding-right: 2px;
 }
 
 .m-main__title {
